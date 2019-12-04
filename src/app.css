@@ -1,0 +1,145 @@
+@import 'assets/css/all.css';
+
+body
+{
+  background: #19181F;
+}
+
+#header
+{
+  padding: 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  background: #54438E;
+}
+
+#header nav a
+{
+color: #fff;
+}
+
+.cards-post
+{
+  max-width: 50%;
+  margin: 50px auto;
+}
+
+.PostItem
+{
+  border-radius: 8px;
+  padding: 30px;
+  background: #EEEEEE;
+  margin: 40px 0;
+}
+.input-comment
+{
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 5px;
+}
+
+.input-comment img
+{
+border-radius: 50%;
+}
+
+.headerItem
+{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.headerItem img
+{
+  border-radius: 50%;
+}
+
+.header-Details h2
+{
+  font-size: .97em;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.header-Details p
+{
+  font-size: .68em;
+}
+
+.post-content
+{
+padding: 30px 0 40px;
+font-size: .97em;
+border-bottom: solid 1px #ddd;
+}
+
+.post-comments
+{
+  margin: 20px 0;
+}
+.comment
+{
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 10px;
+  padding: 0 20px;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+
+
+.comment .avatar
+{
+  border-radius: 50%;
+}
+
+.comment div
+{
+  background: #DDDDDD;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: .8em;
+
+}
+.comment div span
+{
+font-weight: bold;
+margin-right: 8px;
+font-size: 1em !important;
+
+}
+
+.comment ul
+{
+  display: flex;
+  margin-top: 10px;
+}
+.comment ul li
+{
+  margin-right: 10px;
+}
+.comment ul li a:link
+{
+  color: #54438E;
+}
+.comment ul li a
+{
+font-size: .9em;
+}
+
+.PostItem input 
+{
+  max-width: 95%;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid #DDDDDD;
+  outline: none;
+  font-size: .9em;
+  color: #222;
+}
+
+
